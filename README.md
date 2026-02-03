@@ -3,4 +3,3 @@
 ## ✅ Solved Problems
 
 - **1** — Two Sum
-- 
