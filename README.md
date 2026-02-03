@@ -1,2 +1,6 @@
-# LeetCode-Easy
-Features LeetCode (Easy) solutions with optimized Run-time complexity coded in Java
+# LeetCode Medium Solutions
+
+## ✅ Solved Problems
+
+- **1** — Two Sum
+- 
