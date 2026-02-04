@@ -1,15 +1,10 @@
 package leetcode;
 import java.util.*;
 /*
-    1. Two Sum
-
-    Problem asks for the indices of elements that will add up to the target element. At least one solution
-    exists for the given target.
-
-    - DEFINITELY NOT A TWO POINTER PROBLEM. USE HASHMAP TO CHECK FOR COMPLIMENT OF CURRENT ELEMENT.
-    - In one go, you can check if the compliment of current element exists in map of not, and add the current
-    element to the map with its index. If compliment is found, return current index, and get compliment's index
-    from the map.
+    1 - Two Sum
+    Topic: HashMap
+    Time: O(n)
+    Notes: Single pass using map to store seen values and check complements. Dont confuse with TWO POINTERS.
  */
 public class _0001_Two_Sum {
     public int[] twoSum(int[] nums, int target) {
