@@ -1,11 +1,11 @@
 package leetcode;
-import java.util.*;
 /*
     1 - Two Sum
     Topic: HashMap
     Time: O(n)
     Notes: Single pass using map to store seen values and check complements. Dont confuse with TWO POINTERS.
  */
+import java.util.*;
 public class _0001_Two_Sum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
