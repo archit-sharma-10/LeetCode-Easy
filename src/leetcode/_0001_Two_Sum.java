@@ -3,7 +3,7 @@ package leetcode;
     1 - Two Sum
     Topic: HashMap
     Time: O(n)
-    Notes: Single pass using map to store seen values and check complements. Dont confuse with TWO POINTERS.
+    Notes: Single pass using map to store seen values and check complements. Do not confuse with TWO POINTERS.
  */
 import java.util.*;
 public class _0001_Two_Sum {
