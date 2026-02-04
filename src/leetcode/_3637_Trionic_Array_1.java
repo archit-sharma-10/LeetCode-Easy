@@ -1,13 +1,9 @@
 package leetcode;
 /*
-    3637. Trionic Array 1
-
-    We need to return a boolean answer, is this array trionic or not.
-    We need to check for Increase-Decrease-Increase pattern
-
-    - BRUTE FORCE APPROACH WAS FOLLOWED
-    - WHILE LOOPS WERE USED TO TRAVERSE THROUGH ARRAY AND FIND THE PEAKS AND DEPRESSIONS
-    - PAY CLOSE ATTENTION TO THE IF CONDITIONS
+    3637 - Trionic Array 1
+    Topic: Arrays, Brute Force, Two Pointers
+    Time: O(n)
+    Notes: Used while loops and pointers to traverse through array to find the up-down-up phase.
  */
 public class _3637_Trionic_Array_1 {
     public boolean isTrionic(int[] nums) {
