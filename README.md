@@ -8,4 +8,5 @@
 | 9 | Palindrome Number | Math | O(n) | Reverse the integer and compare with original to check palindrome. |
 | 88 | Merge Sorted Array | Two Pointers / Array | O(m + n) | Fill nums1 from the back using two pointers to avoid overwriting elements. A while loop till the index is greater than 0. Return when pointer of second array reaches the end. |
 | 628 | Maximum Product of Three Numbers | Array / Greedy | O(n) | Track three maximums and two minimums in one scan to avoid sorting. |
+| 819 | Most Common Word | HashMap / String Processing | O(n) | String processing to traverse through the given text, append all characters. Replace special characters with space as well. Use regex operation "\\s+" in split to create a split array. Create a map to store frequency and check for max freq and if the word's not banned. |
 | 3637 | Trionic Array 1 | Arrays, Brute Force, Two Pointers | O(n) | Used while loops and pointers to traverse through array to find the up-down-up phase. |
