@@ -6,6 +6,7 @@
 |---|------|------|------|------|
 | 1 | Two Sum | HashMap | O(n) | Single pass using map to store seen values and check complements. Do not confuse with TWO POINTERS. |
 | 9 | Palindrome Number | Math | O(n) | Reverse the integer and compare with original to check palindrome. |
+| 26 | Remove Duplicates from Sorted Array | Two Pointers / Array | O(n) | Maintain slow pointer for unique elements and fast pointer to scan duplicates. |
 | 88 | Merge Sorted Array | Two Pointers / Array | O(m + n) | Fill nums1 from the back using two pointers to avoid overwriting elements. A while loop till the index is greater than 0. Return when pointer of second array reaches the end. |
 | 415 | Add Strings | String / Two Pointers | O(n) | Initiate pointers in both strings from the end, keep traversing till i>=0 and j>=0. Take the sum with carry, update carry at every iteration and append modulus with 10 to StringBuilder. |
 | 628 | Maximum Product of Three Numbers | Array / Greedy | O(n) | Track three maximums and two minimums in one scan to avoid sorting. |
