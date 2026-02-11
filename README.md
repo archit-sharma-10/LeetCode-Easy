@@ -6,6 +6,7 @@
 |---|------|------|------|------|
 | 1 | Two Sum | HashMap | O(n) | Single pass using map to store seen values and check complements. Do not confuse with TWO POINTERS. |
 | 9 | Palindrome Number | Math | O(n) | Reverse the integer and compare with original to check palindrome. |
+| 20 | Valid Parentheses | Stack / String | O(n) | Push expected closing brackets onto stack and match while scanning string. |
 | 26 | Remove Duplicates from Sorted Array | Two Pointers / Array | O(n) | Maintain slow pointer for unique elements and fast pointer to scan duplicates. |
 | 88 | Merge Sorted Array | Two Pointers / Array | O(m + n) | Fill nums1 from the back using two pointers to avoid overwriting elements. A while loop till the index is greater than 0. Return when pointer of second array reaches the end. |
 | 169 | Majority Element | Array / Greedy | O(n) | Use Boyer–Moore voting to cancel out different elements and keep majority candidate. Keep a current element, count of it, if it goes below 0 then change current element and update count to 1. |
