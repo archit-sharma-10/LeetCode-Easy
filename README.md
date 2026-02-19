@@ -10,6 +10,7 @@
 | 26 | Remove Duplicates from Sorted Array | Two Pointers / Array | O(n) | Maintain slow pointer for unique elements and fast pointer to scan duplicates. |
 | 88 | Merge Sorted Array | Two Pointers / Array | O(m + n) | Fill nums1 from the back using two pointers to avoid overwriting elements. A while loop till the index is greater than 0. Return when pointer of second array reaches the end. |
 | 169 | Majority Element | Array / Greedy | O(n) | Use Boyer–Moore voting to cancel out different elements and keep majority candidate. Keep a current element, count of it, if it goes below 0 then change current element and update count to 1. |
+| 217 | Contains Duplicate | HashSet / Array | O(n) | Use hash set to detect duplicates with early exit during single pass. |
 | 345 | Reverse Vowels of a String | Two Pointers / String | O(n) | Move two pointers inward to find vowels and swap them in place. |
 | 387 | First Unique Character in a String | Array / Frequency Counting | O(n) | Use fixed 26-size frequency array and scan string to find first unique index. |
 | 415 | Add Strings | String / Two Pointers | O(n) | Initiate pointers in both strings from the end, keep traversing till i>=0 and j>=0. Take the sum with carry, update carry at every iteration and append modulus with 10 to StringBuilder. |
