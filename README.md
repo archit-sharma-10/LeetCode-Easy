@@ -18,6 +18,7 @@
 | 628 | Maximum Product of Three Numbers | Array / Greedy | O(n) | Track three maximums and two minimums in one scan to avoid sorting. |
 | 819 | Most Common Word | HashMap / String Processing | O(n) | String processing to traverse through the given text, append all characters. Replace special characters with space as well. Use regex operation "\\s+" in split to create a split array. Create a map to store frequency and check for max freq and if the word's not banned. |
 | 1365 | How Many Numbers Are Smaller Than the Current Number | Prefix Sum | O(n) | Count frequencies and use prefix sums to compute number of smaller elements. |
+| 1636 | Sort Array by Increasing Frequency | HashMap / Sorting | O(n + k log k) | Sort distinct numbers using comparator by frequency ascending and value descending, then rebuild array. |
 | 1827 | Minimum Operations to Make the Array Increasing | Greedy / Array | O(n) | Adjust each element to be at least previous + 1 and accumulate required increments. |
 | 3637 | Trionic Array 1 | Arrays, Brute Force, Two Pointers | O(n) | Used while loops and pointers to traverse through array to find the up-down-up phase. |
 | 3833 | Count Dominant Indices | Array / Prefix Sum | O(n) | Calculated sum of all elements. Now at every element, remove it from sum and check average. Compare with current element and return the count of dominant indicis. |
