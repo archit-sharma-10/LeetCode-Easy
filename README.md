@@ -17,6 +17,7 @@
 | 415 | Add Strings | String / Two Pointers | O(n) | Initiate pointers in both strings from the end, keep traversing till i>=0 and j>=0. Take the sum with carry, update carry at every iteration and append modulus with 10 to StringBuilder. |
 | 628 | Maximum Product of Three Numbers | Array / Greedy | O(n) | Track three maximums and two minimums in one scan to avoid sorting. |
 | 819 | Most Common Word | HashMap / String Processing | O(n) | String processing to traverse through the given text, append all characters. Replace special characters with space as well. Use regex operation "\\s+" in split to create a split array. Create a map to store frequency and check for max freq and if the word's not banned. |
+| 832 | Flipping an Image | Array / Two Pointers | O(n^2) | Reverse each row and invert bits using XOR to produce flipped binary image. |
 | 836 | Rectangle Overlap | Geometry | O(1) | Check if x,y coordinates of bottom left corner of rectangle 1 are strictly less than upper right corner of rectangle 2. And also check if coordinates of upper right corner of rectangle 1 are strictly greater than bottom left corner of rectangle 2. |
 | 1365 | How Many Numbers Are Smaller Than the Current Number | Prefix Sum | O(n) | Count frequencies and use prefix sums to compute number of smaller elements. |
 | 1636 | Sort Array by Increasing Frequency | HashMap / Sorting | O(n + k log k) | Sort distinct numbers using comparator by frequency ascending and value descending, then rebuild array. |
