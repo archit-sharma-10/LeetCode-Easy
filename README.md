@@ -21,6 +21,7 @@
 | 836 | Rectangle Overlap | Geometry | O(1) | Check if x,y coordinates of bottom left corner of rectangle 1 are strictly less than upper right corner of rectangle 2. And also check if coordinates of upper right corner of rectangle 1 are strictly greater than bottom left corner of rectangle 2. |
 | 977 | Squares of a Sorted Array | Two Pointers / Array | O(n) | Using two pointers, we will square values from both sides and then start placing values from the right most end of a new array. |
 | 1266 | Minimum Time Visiting All Points | Math / Geometry | O(n) | Find the maximum absolute distance between x and y coordinates and add to final result. |
+| 1290 | Convert Binary Number in a Linked List to Integer | Bit Manipulation / Linked List | O(n) | Initialise an integer with value 0, now at every node, left shift the number by 1 and add current value of node. |
 | 1365 | How Many Numbers Are Smaller Than the Current Number | Prefix Sum | O(n) | Count frequencies and use prefix sums to compute number of smaller elements. |
 | 1636 | Sort Array by Increasing Frequency | HashMap / Sorting | O(n + k log k) | Sort distinct numbers using comparator by frequency ascending and value descending, then rebuild array. |
 | 1827 | Minimum Operations to Make the Array Increasing | Greedy / Array | O(n) | Adjust each element to be at least previous + 1 and accumulate required increments. |
