@@ -10,6 +10,7 @@
 | 26 | Remove Duplicates from Sorted Array | Two Pointers / Array | O(n) | Maintain slow pointer for unique elements and fast pointer to scan duplicates. |
 | 88 | Merge Sorted Array | Two Pointers / Array | O(m + n) | Fill nums1 from the back using two pointers to avoid overwriting elements. A while loop till the index is greater than 0. Return when pointer of second array reaches the end. |
 | 169 | Majority Element | Array / Greedy | O(n) | Use Boyer–Moore voting to cancel out different elements and keep majority candidate. Keep a current element, count of it, if it goes below 0 then change current element and update count to 1. |
+| 191 | Number of 1 Bits | Bit Manipulation | O(k) | Use n & (n-1) to remove the lowest set bit in each iteration until n becomes 0, while incrementing the count. |
 | 217 | Contains Duplicate | HashSet / Array | O(n) | Use hash set to detect duplicates with early exit during single pass. |
 | 268 | Missing Number | Math / Array | O(n) | Compute expected sum using Gauss formula and subtract actual array sum. |
 | 345 | Reverse Vowels of a String | Two Pointers / String | O(n) | Move two pointers inward to find vowels and swap them in place. |
